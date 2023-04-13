@@ -1,4 +1,3 @@
-package org.example;
 
 import javax.swing.JFrame;
 import javax.swing.WindowConstants;
@@ -45,7 +44,7 @@ public class AStarPuzzle {
 
     public static void main(String[] args) {
 
-        String filename = "src\\main\\java\\org\\example\\board2.txt";
+        String filename = "src\\board2.txt";
 
         Board boardPrint = new Board(filename);
         Board boardDisplay = new Board(filename);
