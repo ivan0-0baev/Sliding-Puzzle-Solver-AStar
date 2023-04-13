@@ -1,4 +1,3 @@
-package org.example;
 
 import java.util.ArrayList;
 
@@ -95,7 +94,7 @@ public class PartialSolution implements Comparable<PartialSolution>{
 
 
     public static void main(String[] args) {
-        String filename = "src\\main\\java\\org\\example\\board.txt";
+        String filename = "src\\board2.txt";
         Board board = new Board(filename);
         PartialSolution psol = new PartialSolution(board);
         psol.doMove(new Move(new Position(1, 2), 0));
