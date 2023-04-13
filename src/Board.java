@@ -1,4 +1,3 @@
-package org.example;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -218,7 +217,7 @@ public class Board {
 
 
     public static void main(String[] args) {
-        String filename = "src\\main\\java\\org\\example\\board.txt";
+        String filename = "src\\board.txt";
         Board board = new Board(filename);
         System.out.println(board + "Manhattan: " + board.manhattan());
     }
